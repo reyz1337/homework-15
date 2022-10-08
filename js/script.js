@@ -95,12 +95,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 //5 Запитай у користувача число і виведи всі дільники цього числа.
-     /*  let n = +prompt('Введіть число: ');
-      for (let i = 2; i * 2 <= n; i++) {
+      let n = +prompt('Введіть число: ');
+      for (let i = 1; i <=n; i++) {
         if (n % i == 0) {
             alert(`Дільники числа ${n}: ${i}`);
         }
-    } */
+    }
 
 // normal
 //1 Запитай у користувача п’ятирозрядне число і визначи, чи є воно паліндромом.
@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } */
 
 //3 Запитай дату (день, місяць, рік) і виведи наступну за нею дату. Враховуй можливість переходу на наступний місяць, рік, а також високосний рік.
-    let day = +prompt('Введіть день');
+    /* let day = +prompt('Введіть день');
     let month = +prompt('Введіть місяць');
     let year = +prompt('Введіть рік');
     console.log(`Введена дата: ${day}.${month}.${year}`);
@@ -260,5 +260,5 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             console.log('Error');
         }
-
+ */
 });
